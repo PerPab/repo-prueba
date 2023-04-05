@@ -1,0 +1,14 @@
+.itemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span{
+    margin-top: 30%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+

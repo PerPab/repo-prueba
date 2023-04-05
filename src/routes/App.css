@@ -1,0 +1,8 @@
+.App {
+  margin: 0;
+  padding: 0;
+  background-image: url("/public/bg.png");
+  position: inline-block;
+  height: 100%;
+  min-height: 100vh;
+}

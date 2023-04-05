@@ -1,0 +1,80 @@
+.contador {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.container-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-contador {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 3rem;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #c20b61;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+}
+.btn-contador:hover {
+  background-color: #ec0e76;
+}
+.btn-cont-carrito {
+
+  margin-top: 1rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #c20b61;
+  color: white;
+  justify-content: center;
+
+}
+.btn-cont-carrito:hover {
+  background-color: #ec0e76;
+}
+
+.stock {
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+}
+.s-stock {
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-weight: bold;
+}
+.sad {
+  width: 1rem;
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .btn-contador {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  .contador {
+    margin-top: 0.5rem;
+  }
+  .btn-cont-carrito {
+    margin-bottom: 0.3rem;
+  }
+}

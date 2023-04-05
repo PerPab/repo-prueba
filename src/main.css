@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Macondo&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Rajdhani:wght@500&display=swap');
+
+
+*{
+   
+    font-family: 'Dosis', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    background-image: url('../public/bg.png');
+    position: inline-block;
+    height: 100%;
+    min-height: 100vh;
+    
+}

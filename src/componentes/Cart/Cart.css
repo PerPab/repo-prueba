@@ -1,0 +1,8 @@
+.texto-carrito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 10rem;
+    color: black;
+}

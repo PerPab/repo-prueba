@@ -1,0 +1,26 @@
+.contenedor-carrito {
+  padding: 0.3rem;
+  margin: 0;
+}
+.carrito-logo {
+  width: 1.2rem;
+}
+
+.carrito-numero {
+  padding: 0.2rem;
+  margin-left: 0.1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .contenedor-carrito {
+    transform: scale(1);
+    padding: 0;
+  }
+  .carrito-logo,
+  .carrito-numero {
+    margin: 0.2rem;
+    padding: 0;
+  }
+}
